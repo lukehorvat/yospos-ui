@@ -1,12 +1,12 @@
 @import "ui-variables";
-@tab-radius: 3px;
+@tab-radius: 0px;
 @modified-icon-width: 8px;
 @tab-skew: 0deg;
-@tab-top-padding: 5px;
-@tab-bottom-border-height: 5px;
+@tab-top-padding: 0px;
+@tab-bottom-border-height: 2px;
 @tab-border: 1px solid @tab-border-color;
-@tab-bar-bottom-border-color: #111;
-@tab-max-width: 160px;
+@tab-bar-bottom-border-color: @terminal-foreground-color;
+@tab-max-width: 170px;
 
 .tab-bar {
   height: @tab-height + @tab-top-padding + @tab-bottom-border-height;
@@ -91,14 +91,10 @@
       color: @text-color-highlight;
     }
 
-    .title{
+    .title {
       position: relative;
       z-index: 1;
       padding-right: 10px
-    }
-
-    &:first-child {
-      margin-left: 20px;
     }
   }
 
