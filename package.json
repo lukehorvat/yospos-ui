@@ -1,7 +1,7 @@
 {
   "name": "yospos-ui",
   "theme": "ui",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A UI theme for Atom based on Something Awful's YOSPOS subforum.",
   "license": "MIT",
   "repository": "https://github.com/lukehorvat/yospos-ui",
