@@ -1,11 +1,11 @@
 @import "ui-variables";
 
 .focusable-panel {
-  .selected {
-    background: @background-color-selected;
+  .entry.directory.selected > .header {
+    color: @terminal-background-color;
+  }
 
-    > .name {
-      color: @text-color-selected;
-    }
+  .entry.file.selected > .name {
+    color: @terminal-background-color;
   }
 }
