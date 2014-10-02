@@ -1,8 +1,10 @@
+@import "ui-variables";
+
 .select-list.popover-list {
-  background-color: black;
-  box-shadow: 0 0 5px #57FF57;
+  background-color: @terminal-background-color;
+  box-shadow: 0 0 5px @terminal-foreground-color;
   padding: @component-padding/2;
-  border: 1px solid #57FF57;
+  border: 1px solid @terminal-foreground-color;
 
   .editor {
     margin-bottom: @component-padding/2;

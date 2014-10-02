@@ -1,0 +1,33 @@
+@import "ui-variables";
+
+.overlay {
+  color: @terminal-background-color;
+  background-color: @terminal-foreground-color;
+  padding: 2px;
+  padding-right: 0px;
+  border: 1px solid @terminal-foreground-color;
+  box-shadow: 0 0 5px @terminal-foreground-color;
+
+  .editor.mini {
+    padding: 5px;
+    margin-bottom: 0px;
+    border: 1px solid @terminal-foreground-color;
+  }
+
+  .select-list ol.list-group,
+  &.select-list ol.list-group {
+
+    background-color: @terminal-background-color;
+
+    li {
+      padding: @component-padding;
+      border-right: 1px solid @terminal-foreground-color;
+
+      &.selected {
+        font-weight: bold;
+        color: @terminal-background-color;
+        background-color: @terminal-foreground-color;
+      }
+    }
+  }
+}
