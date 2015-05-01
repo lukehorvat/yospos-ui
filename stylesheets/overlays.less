@@ -1,6 +1,6 @@
 @import "ui-variables";
 
-.overlay {
+atom-panel.modal {
   color: @terminal-background-color;
   background-color: @terminal-foreground-color;
   padding: 2px;
@@ -8,7 +8,7 @@
   border: 1px solid @terminal-foreground-color;
   box-shadow: 0 0 5px @terminal-foreground-color;
 
-  .editor.mini {
+  atom-text-editor[mini] {
     padding: 5px;
     margin-bottom: 0px;
     border: 1px solid @terminal-foreground-color;
